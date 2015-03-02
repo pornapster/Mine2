@@ -3,7 +3,7 @@
 import json,time,urllib,requests
 
 while True:
-	ticker = urllib.urlopen("https://beta.mining.bitcoin.cz/accounts/profile/json/121971-3978f22d8d96377e5f25b972190ac5f8")
+	ticker = urllib.urlopen("https://beta.mining.bitcoin.cz/accounts/profile/json/")
 	
 	data = json.load(ticker)
 	#print data
